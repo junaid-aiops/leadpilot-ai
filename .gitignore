@@ -1,0 +1,22 @@
+@"
+# Environment files
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Node.js
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+"@ | Set-Content .gitignore
